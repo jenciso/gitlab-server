@@ -1,0 +1,5 @@
+---
+cf_key: "{{ vault_cf_key }}"
+cf_user: juan.enciso@gmail.com
+cf_zone: enciso.site
+cf_host: gitlab-az.enciso.site

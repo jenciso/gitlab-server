@@ -1,0 +1,2 @@
+[gitlab]
+gitlab-az.enciso.site  ansible_ssh_port=2222

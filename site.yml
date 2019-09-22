@@ -1,0 +1,19 @@
+- name: gitlab | commons
+  remote_user: ansible
+  hosts: gitlab
+  roles:
+    - common
+    - firewalld
+    - docker-ce
+    - cloudflare-update-dns
+  tags:
+    - commons
+
+
+- name: gitlab | server
+  remote_user: ansible
+  hosts: gitlab
+  roles:
+    - gitlab
+  tags:
+    - gitlab

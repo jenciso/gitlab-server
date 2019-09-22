@@ -1,0 +1,2 @@
+---
+ad_administrator_password: "{{ vault_ad_administrator_password }}"

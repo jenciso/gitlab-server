@@ -1,0 +1,8 @@
+- name: gitlab | commons
+  remote_user: ansible
+  hosts: gitlab
+  roles:
+    - common
+    - firewalld
+    - docker-ce
+    - cloudflare-update-dns
